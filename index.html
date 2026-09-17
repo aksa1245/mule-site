@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MULE — Arabandaki boş yer, yoldaki eşya</title>
+<meta name="description" content="MULE, zaten yola çıkmış sürücülerle aynı yöne gidecek eşyaları buluşturur. Kargo değil, paylaşımlı yolculuk.">
+<link rel="icon" href="/mule.jpg">
+<style>
+  :root{--bg:#FAF9F6;--ink:#171A18;--ink2:#5C635E;--accent:#1E5A4A;--soft:#DCEFE7;--line:#E6E3DC}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+       font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,system-ui,sans-serif;
+       line-height:1.55;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:680px;margin:0 auto;padding:0 20px}
+  header{padding:56px 0 8px;text-align:center}
+  header img{width:200px;height:200px;object-fit:contain}
+  h1{font-size:34px;line-height:1.15;letter-spacing:-.02em;margin:24px 0 12px}
+  .lead{font-size:18px;color:var(--ink2);margin:0 0 32px}
+  .card{background:#fff;border:1px solid var(--line);border-radius:20px;padding:24px;margin:16px 0}
+  .card h2{font-size:19px;margin:0 0 8px}
+  .card p{margin:0;color:var(--ink2);font-size:15px}
+  .pill{display:inline-block;background:var(--soft);color:var(--accent);
+        border-radius:999px;padding:6px 14px;font-size:13px;font-weight:600;margin-bottom:20px}
+  .steps{display:grid;gap:12px;margin:28px 0}
+  .step{display:flex;gap:14px;align-items:flex-start}
+  .n{flex:0 0 28px;height:28px;border-radius:999px;background:var(--accent);color:#fff;
+     font-size:14px;font-weight:600;display:flex;align-items:center;justify-content:center}
+  .step div strong{display:block;font-size:16px}
+  .step div span{color:var(--ink2);font-size:15px}
+  nav{display:flex;gap:18px;justify-content:center;flex-wrap:wrap;padding:40px 0 60px;
+      border-top:1px solid var(--line);margin-top:48px}
+  nav a{color:var(--accent);text-decoration:none;font-size:15px;font-weight:500}
+  nav a:hover{text-decoration:underline}
+  footer{text-align:center;color:var(--ink2);font-size:13px;padding-bottom:48px}
+  @media (prefers-color-scheme: dark){
+    :root{--bg:#121412;--ink:#F2F1EC;--ink2:#A8ADA7;--soft:#1C332B;--line:#2A2E2A}
+    .card{background:#191C19}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <img src="/mule.jpg" alt="MULE">
+  </header>
+
+  <span class="pill">Kargo değil, paylaşımlı yolculuk</span>
+  <h1>Arabandaki boş yer,<br>yoldaki eşya.</h1>
+  <p class="lead">MULE, zaten yola çıkmış bir sürücüyle aynı yöne gidecek bir eşyayı buluşturur.
+  Sürücü kâr etmez, yolun masrafını paylaşır. Eşya sahibi kargodan daha uygun bir yol bulur.</p>
+
+  <div class="steps">
+    <div class="step"><div class="n">1</div><div><strong>Yolculuğunu paylaş</strong><span>Zaten gideceğin rotayı ve aracındaki boş yeri yaz.</span></div></div>
+    <div class="step"><div class="n">2</div><div><strong>Rotanın üstündekileri gör</strong><span>Haritada rotana uyan eşyalar ve her birinin yola etkisi.</span></div></div>
+    <div class="step"><div class="n">3</div><div><strong>Masrafı paylaşın</strong><span>Katkı, günün yakıt fiyatından hesaplanır ve yolculuğun masrafını hiçbir zaman aşamaz.</span></div></div>
+    <div class="step"><div class="n">4</div><div><strong>Buluşun ve teslim edin</strong><span>Yol üstünde ya da adrese uğrayarak; paket açık kapatılır, teslimde kod okunur.</span></div></div>
+  </div>
+
+  <div class="card">
+    <h2>Sürücü kâr etmez</h2>
+    <p>Toplanan katkıların toplamı, yolculuğun yakıt ve otoyol masrafını aşamaz; sürücü her yolculukta
+    kendi masrafının en az dörtte birini kendi cebinden karşılar. Bu bir pazarlama vaadi değil, uygulamanın
+    hesap kuralıdır.</p>
+  </div>
+
+  <div class="card">
+    <h2>MULE ücret almaz</h2>
+    <p>Şu an platform komisyonu ya da hizmet bedeli yoktur. Katkıyı taraflar kendi aralarında konuşur
+    ve teslimde kendi aralarında öderler; MULE ödemenin arasına girmez.</p>
+  </div>
+
+  <nav>
+    <a href="/gizlilik.html">Gizlilik</a>
+    <a href="/kosullar.html">Kullanım koşulları</a>
+    <a href="/destek.html">Destek</a>
+    <a href="mailto:destek@mule.app.tr">İletişim</a>
+  </nav>
+  <footer>MULE · Türkiye · 2026</footer>
+</div>
+</body>
+</html>
